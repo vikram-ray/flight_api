@@ -1,8 +1,8 @@
 # flight_api
 FLIGHT API using FLASK 
 
-THIS IS A FLIGHT API WHICH WAS MADE AS A ASSIGNMENT
-
+THIS IS A FLIGHT API WHICH WAS MADE AS A ASSIGNMENT IN MY TRAINING
+---------------------------------------------------------------------------------------------------------
 FOLLOWING END POINTS:
 GET: /flights     : Returns all the flights
 
@@ -36,8 +36,7 @@ released. This should update the booked seats in db. If the all seats are
 released, booking get totally canceled and entry is removed from DB. But
 if only few seats are released, we just update the DB entry with remaining
 seats.  
-
-
+-----------------------------------------------------------------------------------------------------------------
 QUERIES: 
 1. Flights whose model is 737 
 2. All Flights whose capacity is X and above 
@@ -45,7 +44,8 @@ QUERIES:
 4. which flight was services more 
 5. Which Service Team work is most lousy 
 
-MY OUTPUT AFTER RUNNING query.py 
+-----------------------------------------------------------------------------------------------------------------
+================================== MY OUTPUT AFTER RUNNING query.py ===============================================
 1. Flights whose model is 737
 
 {'_id': '1001', 'name': 'Air India 2', 'model': '737', 'airline': 'AirIndia', 'capacity': 50, 'seats_booked': 0, 'mfg': '13-2-2019', 'service': [{'date_of_service': datetime.datetime(2017, 5, 21, 0, 0), 'service_by': 'VermaJI Cleaner'}]}
