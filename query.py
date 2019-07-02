@@ -66,6 +66,10 @@ for flight in all_flights:
     data.append(flight)
 
 min = datetime.now() - datetime.strptime("01-01-1970", "%d-%m-%Y")
+
+print(datetime.now() - datetime.strptime("01-01-1970", "%d-%m-%Y") == datetime.day)
+print(datetime.day)
+
 lousy_team = ""
 flight_no = ""
 
