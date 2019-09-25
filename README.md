@@ -1,7 +1,7 @@
 # flight_api
 FLIGHT API using FLASK 
 
-THIS IS A FLIGHT API WHICH WAS MADE AS A ASSIGNMENT IN MY TRAINING
+THIS IS A FLIGHT API WHICH WAS MADE AS AN ASSIGNMENT IN MY TRAINING
 ---------------------------------------------------------------------------------------------------------
 FOLLOWING END POINTS:
 GET: /flights     : Returns all the flights
